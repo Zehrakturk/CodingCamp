@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace video5_odev5.Entitiy
 {
-    internal class Campaign: IEntitiy
+    internal class Campaign
     {
         public int Id { get; set; }
         public string CampaignName { get; set; }
