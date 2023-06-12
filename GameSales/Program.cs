@@ -17,7 +17,7 @@ internal class Program
         };
        
         GamerManager gamerManager=new GamerManager(new CheckManager());
-        gamerManager.Delete(gamer);
+       // gamerManager.Delete(gamer);
 
         Game game = new Game();
         game.GameName = "CS Go";
@@ -35,7 +35,7 @@ internal class Program
         gameSalesManager.AddToCart(gamer, game, campaign);
 
         CampaignManager campaignManager = new CampaignManager();
-        campaignManager.DeleteCampaign(campaign);
+       // campaignManager.DeleteCampaign(campaign);
    
     }
 }
